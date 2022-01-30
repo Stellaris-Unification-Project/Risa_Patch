@@ -47,7 +47,7 @@ event = {
 					modifier = {
 						factor = 0
 						NOT = {
-							any_country = {
+							any_playable_country = {
 								is_country_type = default
 								OR = {
 									has_technology = "tech_psi_jump_drive_1"
@@ -58,14 +58,14 @@ event = {
 					}				
 					modifier = {
 						factor = 6
-						any_country = {
+						any_playable_country = {
 							is_country_type = default
 							has_technology = "tech_psi_jump_drive_1"
 						}
 					}
 					modifier = {
 						factor = 2
-						any_country = {
+						any_playable_country = {
 							is_country_type = default
 							has_country_flag = completed_rogue_scientist
 						}
@@ -86,7 +86,7 @@ event = {
 					modifier = {
 						factor = 1.25
 						OR = {
-							any_country = {
+							any_playable_country = {
 								is_country_type = default
 								pop_percentage = {
 									percentage > 0.1
@@ -104,7 +104,7 @@ event = {
 					modifier = {
 						factor = 2
 						OR = {
-							any_country = {
+							any_playable_country = {
 								is_country_type = default
 								pop_percentage = {
 									percentage > 0.25
@@ -116,7 +116,7 @@ event = {
 							}
 							any_country = {
 								has_authority = auth_machine_intelligence
-								count_owned_pops = {
+								count_owned_pop = {
 									limit = { has_trait = trait_machine_unit }
 									count > 99
 								}
@@ -126,7 +126,7 @@ event = {
 					modifier = {
 						factor = 2
 						OR = {
-							any_country = {
+							any_playable_country = {
 								is_country_type = default
 								pop_percentage = {
 									percentage > 0.50
@@ -138,7 +138,7 @@ event = {
 							}
 							any_country = {
 								has_authority = auth_machine_intelligence
-								count_owned_pops = {
+								count_owned_pop = {
 									limit = { has_trait = trait_machine_unit }
 									count > 199
 								}
@@ -148,7 +148,7 @@ event = {
 					modifier = {
 						factor = 2
 						OR = {
-							any_country = {
+							any_playable_country = {
 								is_country_type = default
 								pop_percentage = {
 									percentage > 0.75
@@ -160,7 +160,7 @@ event = {
 							}
 							any_country = {
 								has_authority = auth_machine_intelligence
-								count_owned_pops = {
+								count_owned_pop = {
 									limit = { has_trait = trait_machine_unit }
 									count > 299
 								}
@@ -170,7 +170,7 @@ event = {
 					modifier = {
 						factor = 0
 						NOT = {
-							any_country = {
+							any_playable_country = {
 								is_country_type = default
 								any_owned_pop = {
 									has_trait = trait_mechanical
